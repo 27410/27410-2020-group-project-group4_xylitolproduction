@@ -14,17 +14,4 @@ Biotechnological production of xylitol is not yet cost-competitive, and several 
 In this project Saccharomyces cerevisiae has been selected among other cell factories with this pathways present. S. cerevisiae is a robust organism and with many models available, however the production of Xylitol is limited. As mentioned, Xylitol is a product with a high impact in the food industry for this reason the use of a GRAS organism is a huge advantage. The aim is to modify cerevisiae to achieve high titers, by knocking out genes and overexpression of others. The Yeast8 model is the one that is going to be used. 
 
 ## Project overview
-
-The Project will be developed as following:
-
-1.	Study the model, get to know the metabolites, reactions, medium of growth of Saccharomyces and growth rate, under normal conditions. 
-2.	Check for the Xylitol pathway and flux of every reaction 
-3.	Xylitol Yield and Productivity and Xylose uptake
-4.	Perform the following modifications separately.
-a.	Knock out of XDH
-b.	Overexpression of XR
-c.	Overexpression of Xylose transporters
-d.	Overexpression of reactions that produce of Co Factors (NADH, NADPH) (Glucose-6-phosphate dehydrogenase (G6PD), 6-phosphogluconate dehydrogenase (6-PGD))
-•	All this modifications study them under different mediums: 100 % Xylose as carbon source, 50% glucose 50% Xylose, 25% glucose 75% Xylose and 75% glucose 25% Xylose.
-5.	Combine the modifications to achieve the better yield and productivity. 
-
+The main part of this project can be viewed in the Report.ipynb document. Here we have included the backround to the project idea, as well as the results we have obtained, and the discussion of our findings in regards of using *S.cerevisiae* as a and improved cell factory for xylitol production. All the models employed in this endevour can be found in the Models folder. In the Simulation folder we can find the different files with code used for obtaning results that are discussed and lead to our conclusions. They are referenced through the Report.ipynb document when pertinent. The images used in the report are in the img folder. The folder Future work includes code that we would have liked to implement but could not make work, or code that works and we have not implemented in our analysis but we would like to implement in the future. Necessary requirements for this repository can be found in the requirements.txt.
